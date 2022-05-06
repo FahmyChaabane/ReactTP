@@ -1,0 +1,27 @@
+.App {
+  font-size: 16px;
+  animation: 1s fadeIn;
+}
+
+.newItem {
+  background: rgba(110, 151, 238, 0.1);
+  border-radius: 10px;
+}
+
+.TextFilter {
+  padding: 5px;
+}
+
+.SelectionFilter {
+  display: flex;
+  padding: 5px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
